@@ -9,10 +9,11 @@ It is intended for users, partners, and integrators who need to deploy or update
 
 ## 📁 Contents
 
-- ✅ Precompiled firmware files (`.bin` or `.hex`), organized by version
-- 📝 Release notes and changelogs
-- 🧭 Firmware update instructions
-- ⚙️ Hardware compatibility details (Spoony v1, v2, etc.)
+- ✅ Precompiled firmware files (`.bin` or `.hex`), organized by device revision
+    - *latest* folder contains the latest firmware version available for all device revisions
+    - *previous* folder contains older firmware versions, organized by device revision
+- 📝 Release notes and changelogs : Release notes are available together with each firmware file
+- 🧭 Firmware update instructions : See below
 
 > ⚠️ **No source code is included in this repository.**  
 Only official and validated firmware binaries ready for deployment are provided.
@@ -51,7 +52,7 @@ You can verify the firmware version on the **Device Information** page of the We
 
 ## 📌 Notes
 
-- Always check compatibility with your device hardware version (Spoony v1, v2, etc.).
+- Always check compatibility with your device hardware version (1.5, 1.5.1 etc.).
 - When in doubt, contact DotVision support before updating.
 
 ---
@@ -70,10 +71,11 @@ Il est destiné aux utilisateurs, partenaires et intégrateurs souhaitant déplo
 
 ## 📁 Contenu
 
-- ✅ Fichiers firmware précompilés (`.bin` ou `.hex`), classés par version
-- 📝 Notes de version et changelogs
-- 🧭 Instructions de mise à jour
-- ⚙️ Informations de compatibilité matérielle (Spoony v1, v2, etc.)
+- ✅ Fichiers firmware précompilés (`.bin` ou `.hex`), classés par version de l'appareil
+    - Le dossier *latest* contient les dernières version firmware pour toutes les versions de l'appareil
+    - Le dossier *previous* contient les version précédentes, classées par version de l'appareil
+- 📝 Notes de version et changelogs : Les releases notes sont disponible avec chaque fichier firmware
+- 🧭 Instructions de mise à jour : Voir ci-dessous
 
 > ⚠️ **Aucun code source n’est inclus dans ce dépôt.**  
 Seuls les firmwares officiels, validés et prêts à être installés sur les appareils sont disponibles.
@@ -112,7 +114,7 @@ Vous pouvez vérifier la version installée depuis la page **Device information*
 
 ## 📌 Notes
 
-- Vérifiez toujours la compatibilité de la version du firmware avec votre modèle de Spoony (v1, v2, etc.).
+- Vérifiez toujours la compatibilité de la version du firmware avec votre modèle de Spoony (1.5, 1.5.1 etc.).
 - En cas de doute, contactez le support DotVision avant de procéder.
 
 ---

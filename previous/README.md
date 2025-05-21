@@ -1,0 +1,2 @@
+# Previous firmware verions
+This directory (currently empty) contains previous versions of the firmware. It is provided for rollback but firmwares files available in the *latest* directory should be used as they provide latest functionnalities and bugs corrections.
