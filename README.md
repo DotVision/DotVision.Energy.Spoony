@@ -9,7 +9,7 @@ It is intended for users, partners, and integrators who need to deploy or update
 
 ## 📁 Contents
 
-- ✅ Precompiled firmware files (`.bin` or `.hex`), organized by device revision
+- ✅ Precompiled firmware files (`.bin` or `.hex`), organized by device revision. An alternative `.zip` file with full factory default configuration is also provided.
     - *latest* folder contains the latest firmware version available for all device revisions
     - *previous* folder contains older firmware versions, organized by device revision
 - 📝 Release notes and changelogs : Release notes are available together with each firmware file
@@ -50,6 +50,20 @@ You can verify the firmware version on the **Device Information** page of the We
 
 ---
 
+### 🔧 Method 3 – Copy via MicroSD card - Full factory reset
+
+1. Remove the MicroSD card from the device.  
+2. Insert it into a computer.  
+3. Format the MicroSD card using **FAT32** partition format
+4. Extract the full content of the .zip archive to the root of the MicroSD card
+5. Reinsert the MicroSD card into the device.  
+6. Press the **Reset** button (see user manual, section 2.4.2).  
+7. Wait about 2 minutes for the device to reboot with the new firmware.  
+
+You can verify the firmware version on the **Device Information** page of the Web UI (see section 5.5 of the user manual).
+
+---
+
 ## 📌 Notes
 
 - Always check compatibility with your device hardware version (1.5, 1.5.1 etc.).
@@ -71,7 +85,7 @@ Il est destiné aux utilisateurs, partenaires et intégrateurs souhaitant déplo
 
 ## 📁 Contenu
 
-- ✅ Fichiers firmware précompilés (`.bin` ou `.hex`), classés par version de l'appareil
+- ✅ Fichiers firmware précompilés (`.bin` ou `.hex`), classés par version de l'appareil. Un fichier `.zip` alternatif contenant l'ensemble de la configuration d'usine est aussi disponible.
     - Le dossier *latest* contient les dernières version firmware pour toutes les versions de l'appareil
     - Le dossier *previous* contient les version précédentes, classées par version de l'appareil
 - 📝 Notes de version et changelogs : Les releases notes sont disponible avec chaque fichier firmware
@@ -109,6 +123,20 @@ Vous pouvez vérifier la version installée depuis la page **Device information*
 2. Rendez-vous dans la section **Mise à jour Firmware** (voir chapitre 5.10.4 du manuel).  
 3. Téléversez le nouveau fichier firmware via le navigateur.  
 4. Redémarrez l’appareil depuis l’interface.  
+
+---
+
+### 🔧 Méthode 3 – Copie directe sur la carte MicroSD - Remise en configuration d'usine
+
+1. Retirez la carte MicroSD de l’appareil.  
+2. Insérez-la dans un ordinateur.  
+3. Formattez la carte MicroSD en utilisant le format de partition **FAT32**.
+4. Extraire l'ensemble de l'archive .zip à la racine de la carte MicroSD
+5. Réinstallez la carte MicroSD dans l’appareil.   
+6. Appuyez sur le bouton **Reset** (voir manuel utilisateur, section 2.4.2).  
+7. Attendez environ 2 minutes pour que l’appareil redémarre avec la nouvelle version.  
+
+You can verify the firmware version on the **Device Information** page of the Web UI (see section 5.5 of the user manual).
 
 ---
 
